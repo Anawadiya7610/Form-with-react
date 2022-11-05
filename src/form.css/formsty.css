@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     margin: auto;
+     width: 85vw;
+     border: 2px solid gray;
+}
+#railway-header{
+     background-color:#e74c3c;
+    padding: 15px 0;
+}
+input{
+    border-color: #e74c3c;
+    cursor: pointer;
+}
+
+#railwayform{
+    margin-top: 3%;
+}
+
+#field-1{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+#field-2{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px 30px ;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-bottom: 5%;}
+
+    #field-3{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding: 20px 30px ;
+        display: flex;
+        /* flex-direction: column; */
+        flex-direction: column;
+        margin-bottom: 5%;}
+
+input[type="text"]{
+    height: 25px;
+    width: 35%;
+   
+}
+
+input[type="email"]{
+    height: 25px;
+    width: 45%;
+   
+}
+ 
+input[type="tel"]{
+    height: 25px;
+    width: 45%;
+   
+}
+
+.names-ash{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.ash-1{
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+
+#ageid{
+    width: 50px;
+}
+
+
+.labels{
+    width: 130px;
+    display: inline-block;
+    font-size:17px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.gender{
+    width: 49%;
+  
+}
+.married{
+
+    width: 49%;
+}
+.genmarriage{
+    display: flex;
+    justify-content: space-between;
+    margin:22px 0 25px 0;
+}
+
+select.labels{
+    font-weight: 300;
+}
+
+.email-mob{
+    width: 100%;
+    display: flex;
+}
+
+.email-div{
+    width: 49%;
+}
+
+.mobile-div{
+    width: 49%;
+}
+
+.addre{
+    display: flex;
+    flex-direction: column;
+}
+
+.marriedlabel {
+    width: 80px;
+}
+
+
+.male{
+    width: 52px;
+}
+.female {
+    width: 64px;
+    margin: 0 0 0 10px;
+}
+
+.transgender{
+    width: 108px;
+    margin-left: 10px;
+}
+
+.genderspan{
+    width: 85px;
+}
+ .email{
+    width: 95px;
+ }
+
+ .mobile{
+    width: 158px;
+ }
+
+  .addline,
+  .indian{
+    margin: 15px 0 15px 0;
+}
+
+.dob{
+    width: 78px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 600;
+    width: 100px;
+    height: 26px;
+    background-color: #e74c3c;
+}
+button:hover{
+    font-size:18px;
+    font-weight: 700;
+    color: #e74c3c;
+    background-color: white;
+    cursor: pointer;
+}
