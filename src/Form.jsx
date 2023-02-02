@@ -9,7 +9,6 @@ export default function Form() {
     mname: "",
     lname: "",
     fathname: "",
-    age: "",
     gender: "",
     married: "",
     email: "",
@@ -22,16 +21,18 @@ export default function Form() {
   });
 
   const handleChange = (e) => {
-
     const { name, value: elementValue, type, checked } = e.target;
     let value = type === "checkbox" ? checked : elementValue;
-    setUser({ ...user, [name]: value });
-    
+    setUser({ ...user, [ name]:value})
+     
+
+    // setUser({ ...user, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("user values", user);
+    
+    // console.log("user values", user);
     // pass user values to api
   };
 
@@ -256,7 +257,9 @@ export default function Form() {
             />
           </div>
           <div className="indian">
-            <label htmlFor="indian" className="labels">Are You Indian : </label>
+            <label htmlFor="indian" className="labels">
+              Are You Indian :{" "}
+            </label>
             <input
               type="checkbox"
               onChange={handleChange}
